@@ -9,6 +9,7 @@ fuzzy = 5
 
 from PIL import Image
 
+# download from http://kingofwallpapers.com/random-image/random-image-005.jpg
 img = Image.open('random-image-005.jpg')
 img = img.convert("RGBA")
 datas = img.getdata()
